@@ -1,3 +1,5 @@
+<img src="./WinView2/resources/winview2.png" alt="WinView2 Icon" width="384"/>
+
 # WinView2
 
 A lightweight WPF shell that wraps WebView2, letting you build Windows desktop apps with plain HTML, CSS, and JavaScript - while still having access to native window controls, Mica/Acrylic backdrops, and dark mode through a simple JS API.
