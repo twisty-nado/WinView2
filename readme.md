@@ -1,5 +1,4 @@
-<img src="./WinView2/resources/winview2.png" alt="WinView2 Icon" width="384"/>
-
+![WinView2 Icon](./WinView2/resources/winview2.png)
 # WinView2
 
 A lightweight WPF shell that wraps WebView2, letting you build Windows desktop apps with plain HTML, CSS, and JavaScript - while still having access to native window controls, Mica/Acrylic backdrops, and dark mode through a simple JS API.
@@ -29,8 +28,8 @@ Put your web content in the `source/` folder. `source/index.html` is the entry p
 
 ```
 WinView2/
-└── source/
-    └── index.html   ← your app goes here
+  - source/
+    - index.html  <- your html goes here, alongside anything else you want to throw into this
 ```
 
 Access the window API in your JS via:
@@ -187,3 +186,5 @@ window.addEventListener("windowMoved", (e) => {
 - `SetDarkMode` only affects the native chrome (titlebar/border), not your web content
 - `SetSize` and `Move` operate on the **outer window**, not the WebView content area
 - The taskbar icon uses your app's `.ico` resource - the favicon only syncs to the titlebar
+
+##### Twisty Nado 2026...
