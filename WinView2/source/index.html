@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage test</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Hi</h1>
+    <button onclick="max()">Maximize window</button>
+
+    <script>
+        const api = chrome.webview.hostObjects.windowApi;
+
+        function max(){
+            api.maximize();
+        }
+    </script>
+</body>
+</html>
