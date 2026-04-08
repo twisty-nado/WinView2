@@ -17,7 +17,7 @@ A lightweight WPF shell that wraps WebView2, letting you build Windows desktop a
 
 ## Requirements
 
-- Windows 10/11
+- Windows 10/11 (Windows 8.1 and lower COULD work, I just haven't tested WinView on Windows 8.1, 8.0, 7, and lower)
 - [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
 - .NET Framework 4.8
 
